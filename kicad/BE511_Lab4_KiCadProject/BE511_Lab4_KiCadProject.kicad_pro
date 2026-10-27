@@ -504,6 +504,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -714,7 +715,7 @@
         "uuid": "dff3cfde-4775-47a0-871e-26e88704f259"
       }
     ],
-    "used_designators": "R1",
+    "used_designators": "#PWR1-18,A1,C1-7,J1-4,R1-4,U1-3",
     "variants": []
   },
   "sheets": [
@@ -724,13 +725,13 @@
     ]
   ],
   "text_variables": {
-    "SCH_CONTRIBUTORS": "Dr. Electron",
-    "SCH_DATE": "9/1/2026",
-    "SCH_DESC_1": "line one",
-    "SCH_DESC_2": "line two",
+    "SCH_CONTRIBUTORS": "Elisa Jee",
+    "SCH_DATE": "10/27/26",
+    "SCH_DESC_1": "4-ch 12-bit ADC input (MCP3204), 50 kHz LPF",
+    "SCH_DESC_2": "4-ch 12-bit DAC output (2x MCP4922), SPI",
     "SCH_REVISION": "1.0",
-    "SCH_SUBSYSTEM": "Comms",
-    "SCH_TITLE": "Comms Example Board"
+    "SCH_SUBSYSTEM": "BE511 Lab 4",
+    "SCH_TITLE": "Arduino Shield"
   },
   "tuning_profiles": {
     "meta": {
