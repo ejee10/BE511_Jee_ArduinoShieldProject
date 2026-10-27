@@ -4640,7 +4640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 72.39 61.722 90)
 			(hide yes)
 			(show_name no)
@@ -4877,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 80.9752 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 259.08 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5202,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 72.39 54.102 90)
 			(hide yes)
 			(show_name no)
@@ -5281,7 +5281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5465,7 +5465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 139.7 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5658,7 +5658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +6183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 167.3352 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6264,7 +6264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 100.0252 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6577,7 +6577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 			(at 40.64 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6758,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 72.39 65.532 90)
 			(hide yes)
 			(show_name no)
@@ -6837,7 +6837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 72.39 57.912 90)
 			(hide yes)
 			(show_name no)
@@ -6918,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 172.4152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7000,7 +7000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 36.83 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7166,7 +7166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 191.77 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7362,7 +7362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 93.6752 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7521,7 +7521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 87.3252 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +7758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 102.5652 40.64 0)
 			(hide yes)
 			(show_name no)
