@@ -1,73 +1,25 @@
 <!-- kicad_template/README.md -->
 
-# Generic KiCad 10.0 Project Template
+# BE511 Arduino Analog Shield
 
-This repository is a template for the electrical team to use for board
-design. It can be easily cloned, edited, and uploaded to your own
-github for collaboration between members.
+KiCad 10 schematic and PCB layout for a 4-channel analog I/O shield for the Arduino Uno, designed for BE511 Biomedical Instrumentation (Fall 2026, Boston University).
 
-<font size=-1>Template forked courtesy of the BU Mars Rover Club!</font>
+## Design Summary
 
-See <a href="Git and GitHub - Fall 2026 - Google Slides.pdf">Slides</a> with instructions.
+- **Analog inputs (4):** MCP3204 12-bit ADC, 0–5 V range, each input with a 1 kΩ / 3 nF RC low-pass filter (~50 kHz cutoff)
+- **Analog outputs (4):** two MCP4922 12-bit dual DACs, 0–5 V range
+- **Interface:** SPI to the Arduino Uno (SCK, COPI, CIPO, CS0–CS2, LDAC, SHDN)
+- **Connectors:** screw terminals and 2x5 headers for inputs and outputs
 
 ## File Structure
 
-- ```/kicad/``` contains all of the KiCad 10.0 project files
-- ```/datasheets/``` should contain all of the .pdf files for the important components
-- ```/calculations/``` should include any significant calculations that led to a component choice or value choice
-- ```/cad/``` should include any .DXF, .STEP or .STL files used with your board, or a link to your OnShape document
+- `/kicad/` contains the KiCad 10 project files
+- `/datasheets/` contains datasheets for key components
+- `/calculations/` contains component value calculations
+- `/cad/` contains mechanical files, if any
 
-## Using this Template in KiCad 10.0
+## Author
 
-Download KiCad [here](https://www.kicad.org/download/). I currently recommend version 10.
+Elisa Jee
 
-1. Click the ```Use this Template``` to make a personal copy of this repository.
-
-2. Set the repository name to your desired name: PROJECT_NAME
-
-3. Clone the repository to your local machine
-
-4. Open up KiCad 10.0 and open the default project in the ```kicad/default``` directory.
-
-5. Click ```save as``` and save it to the ```kicad``` directory under your desired name PROJECT_NAME.
-
-6. The folder tree should look like this:
-
-```
-PROJECT_NAME/
-├── kicad/
-│   ├── template/
-│   │   ├── template.kicad_dru
-│   │   ├── template.kicad_pcb
-│   │   ├── template.kicad_pro
-│   │   ├── template.kicad_sch
-│   │   └── sheet.kicad_wks
-│   └── PROJECT_NAME/
-│       ├── PROJECT_NAME.kicad_dru
-│       ├── PROJECT_NAME.kicad_pcb
-│       ├── PROJECT_NAME.kicad_pro
-│       ├── PROJECT_NAME.kicad_sch
-│       └── sheet.kicad_wks
-├── datasheets
-├── calculations
-├── img
-├── README.md
-└── LICENSE
-```
-
-7. Delete the ```kicad/template``` directory.
-
-8. Open up your newly renamed project, ```PROJECT_NAME.kicad_pro```, and then open the schematic editor.
-
-9. Click ```File -> Schematic Setup```, then under ```Project -> Text Variables```, populate all of the fields with the correct information such as ```contributors``` and board ```revision```. Then click OK and you should see the bottom right of the schematic and layout correctly update. See a screenshots below:
-
-<br>
-
-<div align="center">
-    <img src="img/text_variables.png" width="500" max-height="400">
-    <!-- <img src="img/fields.png" width="500" max-height="400"> -->
-</div>
-
-<br>
-
-8. Edit this README.md file, initialize the git repository, and start working on your project!
+*Project template courtesy of E. Hazen / BU Mars Rover Club.*
